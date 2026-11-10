@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0f141b"/>
+  <!-- liquidity level and the sweep through it -->
+  <line x1="112" y1="336" x2="400" y2="336" stroke="#f4b942" stroke-width="10" stroke-dasharray="26 18" stroke-linecap="round"/>
+  <!-- candles: down, down (sweeps the level), up, up -->
+  <g stroke-width="10" stroke-linecap="round">
+    <line x1="160" y1="150" x2="160" y2="300" stroke="#f2646f"/><rect x="138" y="172" width="44" height="100" rx="6" fill="#f2646f"/>
+    <line x1="224" y1="240" x2="224" y2="386" stroke="#f2646f"/><rect x="202" y="258" width="44" height="66" rx="6" fill="#f2646f"/>
+    <line x1="288" y1="196" x2="288" y2="330" stroke="#2ec28f"/><rect x="266" y="214" width="44" height="96" rx="6" fill="#2ec28f"/>
+    <line x1="352" y1="120" x2="352" y2="250" stroke="#2ec28f"/><rect x="330" y="138" width="44" height="92" rx="6" fill="#2ec28f"/>
+  </g>
+  <circle cx="224" cy="386" r="13" fill="#f4b942"/>
+</svg>

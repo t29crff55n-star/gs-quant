@@ -1,0 +1,16 @@
+{
+  "name": "BTC 聪明钱信号台",
+  "short_name": "BTC 信号台",
+  "description": "BTC 15 分钟聪明钱策略的开仓、平仓提醒",
+  "lang": "zh-CN",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0f141b",
+  "theme_color": "#0f141b",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
